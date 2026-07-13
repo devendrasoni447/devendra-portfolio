@@ -190,17 +190,40 @@ nav a:hover{
     }
 
 }
-@media (max-width:600px){
+@media (max-width: 600px){
+
+    body{
+        background:#eaf6ff;
+        color:#000;
+    }
+
+    nav{
+        background:#007bff;
+        padding:10px;
+    }
+
     nav a{
-        display:block;
-        margin:10px;
+        color:white;
+        margin:5px;
+        font-size:14px;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
     }
 
     h1{
         font-size:28px;
+        color:#000;
+    }
+
+    h2{
+        color:#000;
     }
 
     p{
         font-size:16px;
+        color:#000;
     }
 }
