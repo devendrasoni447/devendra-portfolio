@@ -1,0 +1,162 @@
+body{
+    background:#eaf6ff;
+    text-align:center;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background:#007bff;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+nav{
+    background:#007bff;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #0d6efd;
+}
+footer{
+    background:#007bff;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    font-size:18px;
+}
+div{
+    margin:20px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+}
+button{
+    background:#007bff;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+   background:#0056b3;
+}
+html{
+    scroll-behavior:smooth;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background: #007bff;
+    padding: 15px;
+    z-index: 1000;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
+}
+.dark{
+    background-color: #222;
+    color: white;
+}
+
+.dark nav{
+    background-color: black;
+}
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #0d6efd;
+}
+
+.hero h1{
+    font-size:40px;
+    margin:20px 0 10px;
+}
+
+.hero h2{
+    color:gray;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    background:#007bff;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.btn:hover{
+    background:#0056b3;
+}
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark nav{
+    background:#000;
+}
+
+.dark a{
+    color:#4fc3f7;
+}
+
+.dark button{
+    background:#2196f3;
+    color:white;
+}
