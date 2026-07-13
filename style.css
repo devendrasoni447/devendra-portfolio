@@ -2,6 +2,7 @@ body{
     background:#eaf6ff;
     text-align:center;
     font-family:Arial, sans-serif;
+    color :#000;
 }
 
 nav{
@@ -124,6 +125,7 @@ nav a:hover{
 .hero h2{
     color:gray;
     margin-bottom:15px;
+    color :#333
 }
 
 .hero p{
@@ -159,4 +161,46 @@ nav a:hover{
 .dark button{
     background:#2196f3;
     color:white;
+}
+@media (max-width: 600px){
+
+    body{
+        background:white;
+        color:black;
+    }
+
+    nav{
+        background:#007bff;
+        padding:10px;
+    }
+
+    nav a{
+        color:white;
+        margin:5px;
+        font-size:14px;
+    }
+
+    h1, h2, p{
+        color:black;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+}
+@media (max-width:600px){
+    nav a{
+        display:block;
+        margin:10px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    p{
+        font-size:16px;
+    }
 }
